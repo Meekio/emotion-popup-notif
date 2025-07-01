@@ -28,6 +28,7 @@ emotion-popup/
 ├── README.md # Documentation
 
 
+
 VIRTUAL ENVIRONMENT (`.venv`)
 
 This project uses a Python virtual environment stored in the `.venv` folder. It helps manage dependencies locally without affecting your global Python installation.
@@ -56,6 +57,7 @@ pip install -r requirements.txt
 
 
 DATASET
+
 Download the FER2013 Dataset from Kaggle and place fer2013.csv inside the project folder. 
 
 The `csv file` can be downloaded from here: https://www.kaggle.com/datasets/deadskull7/fer2013
@@ -63,6 +65,7 @@ The `csv file` can be downloaded from here: https://www.kaggle.com/datasets/dead
 The `dataset` can be downloaded from here: https://www.kaggle.com/datasets/msambare/fer2013/data
 
 Training the Model
+
 Run the following script to train a CNN on the FER2013 dataset: python train_model.py
 This will generate model.h5, a trained model file used for real-time emotion prediction.
 
@@ -87,9 +90,6 @@ HOW IT WORKS
 5. Displays a notification message when a new emotion is detected.
 
 NOTES
-
-No GPU is required — runs on most laptops.
-
-Ensure your webcam is connected and working.
-
-Notifications may not appear if you're in full-screen mode (e.g., games or video players).
+- No GPU is required — runs on most laptops.
+- Ensure your webcam is connected and working.
+- Notifications may not appear if you're in full-screen mode (e.g., games or video players).
