@@ -59,7 +59,9 @@ pip install -r requirements.txt
 
 Dataset
 Download the FER2013 Dataset from Kaggle and place fer2013.csv inside the project folder. 
+
 The `csv file` can be downloaded from here: https://www.kaggle.com/datasets/deadskull7/fer2013
+
 The `dataset` can be downloaded from here: https://www.kaggle.com/datasets/msambare/fer2013/data
 
 Training the Model
@@ -88,5 +90,7 @@ How It Works
 
 Notes
 No GPU is required — runs on most laptops.
+
 Ensure your webcam is connected and working.
+
 Notifications may not appear if you're in full-screen mode (e.g., games or video players).
