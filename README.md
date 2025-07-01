@@ -24,12 +24,30 @@ emotion-popup/
 ├── README.md # Documentation
 
 
-Requirements
+Virtual Environment (`.venv`)
 
-Install the necessary Python packages:
+This project uses a Python virtual environment stored in the `.venv` folder. It helps manage dependencies locally without affecting your global Python installation.
+
+To create a virtual environment (if not already created):
 
 ```bash
-pip install tensorflow opencv-python pandas scikit-learn matplotlib plyer win10toast
+python -m venv .venv
+```
+
+To activate the environment:
+
+On Windows:
+```bash
+.venv\Scripts\activate
+```
+On macOS/Linux:
+```bash
+source .venv/bin/activate
+```
+After activation, install all required packages:
+
+```bash
+pip install -r requirements.txt
 ```
 
 
