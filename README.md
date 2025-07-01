@@ -16,11 +16,17 @@ Features
 Folder Structure
 
 emotion-popup/
+
 ├── fer2013.csv # Emotion dataset (Kaggle FER2013)
+
 ├── train_model.py # Script to train the emotion detection model
+
 ├── model.h5 # Saved trained model
+
 ├── main.py # Real-time detection using plyer (Action Center)
+
 ├── main1.py # Real-time detection using win10toast (toast popup)
+
 ├── README.md # Documentation
 
 
